@@ -95,4 +95,4 @@ Array.prototype.myReduce = function(callback, initializer) {
     return accumulator;
 };
 
-console.log([1, 2, -1, 4, -6, 9, -3].myReduce((sum, curr) => sum + curr, 0));
+console.log([1, 2, -1, 4, -6, 9, -3].myReduce((sum, curr) => sum + curr));
